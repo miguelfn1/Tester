@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Votação</title>
+    <link href="templates/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <h1>Vote pelo link</h1>
+        <hr>
+     <a href="{{url_for('cadastrar')}}">Vote aqui</a><br>
+     <a href="{{url_for('lista')}}">Lista de Votos</a>
+     
+
+</form>
+  </body>
+</html>
